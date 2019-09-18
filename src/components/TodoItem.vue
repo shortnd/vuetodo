@@ -23,6 +23,7 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
 .ToDoItem-Text {
   width: 90%;
   background-color: white;
@@ -31,10 +32,11 @@ export default {
   padding: 12px;
   margin-right: 10px;
 }
+
 .ToDoItem-Delete {
-  width: 20px;
-  padding: 5px;
-  height: 20px;
+  width: 35px;
+  /*padding: 5px;*/
+  height: 35px;
   cursor: pointer;
   background: #ff7373;
   border-radius: 10px;
@@ -43,6 +45,7 @@ export default {
   font-size: 18px;
   margin-right: 5px;
 }
+
 .ToDoItem-Delete:hover {
   box-shadow: none;
   margin-top: 1px;
